@@ -208,13 +208,13 @@ ve.init.mw.Target.static.toolbarGroups = [
 	// Link
 	{ include: [ 'link' ] },
 	// Cite
-	{
-		type: 'list',
-		label: OO.ui.deferMsg( 'visualeditor-toolbar-cite-label' ),
-		indicator: 'down',
-		include: [ { group: 'cite' }, 'reference', 'reference/existing' ],
-		demote: [ 'reference', 'reference/existing' ]
-	},
+	//{
+	//	type: 'list',
+	//	label: OO.ui.deferMsg( 'visualeditor-toolbar-cite-label' ),
+	//	indicator: 'down',
+	//	include: [ { group: 'cite' }, 'reference', 'reference/existing' ],
+	//	demote: [ 'reference', 'reference/existing' ]
+	//},
 	// Structure
 	{
 		type: 'list',
